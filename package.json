@@ -11,15 +11,22 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.5",
+    "@unocss/reset": "^0.63.6",
+    "chart.js": "^4.4.5",
     "nuxt": "^3.13.2",
     "pinia": "^2.2.4",
     "vue": "latest",
+    "vue-chartjs": "^5.3.1",
     "vue-router": "latest"
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.2.1",
+    "@nuxt/types": "^2.18.1",
     "@unocss/nuxt": "^0.63.6",
+    "@unocss/preset-attributify": "^0.63.6",
     "@unocss/preset-icons": "^0.63.6",
+    "@unocss/preset-rem-to-px": "^0.63.6",
+    "@unocss/preset-web-fonts": "^0.63.6",
     "unocss": "^0.63.6"
   }
 }
