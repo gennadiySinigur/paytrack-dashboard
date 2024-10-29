@@ -12,7 +12,7 @@ export default defineConfig({
     presetWebFonts({ 
       provider: "google",
       fonts: {
-        sans: ["Onest:400,500,700"],
+        sans: ["Onest:400,500,700,900"],
       }
     }),
     presetIcons({
