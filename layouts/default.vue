@@ -1,8 +1,6 @@
 <template>
   <div class="grid grid-rows-[auto_1fr_auto] grid-cols-[auto_1fr] min-h-screen">
-    <aside class="fixed top-0 left-0 h-full bg-primary-light w-0 lg:w-222">
-      Sidebar
-    </aside>
+    <Sidebar />
     
     <header class="fixed  top-0 left-0 right-0 text-white h-85 z-10 lg:ml-[222px] bg-white shadow-[0_3px_2px_0_rgba(0,_0,_0,_0.10)]">
       Header
