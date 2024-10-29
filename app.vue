@@ -49,7 +49,6 @@ svg {
 
 button, input, select, textarea {
   font: inherit;
-  /* color: inherit; */
   background: none;
   border: none;
   padding: 0;
@@ -68,42 +67,5 @@ a {
 
 button {
   cursor: pointer;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote::before,
-blockquote::after,
-q::before,
-q::after {
-  content: '';
-}
-
-code, pre {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 1em;
-  background: none;
-  border: none;
-}
-
-:focus-visible {
-  outline: 2px solid #000;
-  outline-offset: 2px;
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid #ccc;
-}
-
-address {
-  font-style: normal;
 }
 </style>
