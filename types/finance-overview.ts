@@ -26,12 +26,12 @@ interface UnpaidStatus {
   percentage: number;
 }
 
-interface FinancialSummary {
+export interface FinancialSummary {
   invoices: FinancialSummaryDetails;
   payments: FinancialSummaryDetails;
 }
 
-interface FinancialSummaryDetails {
+export interface FinancialSummaryDetails {
   total: number;
   received: number;
   due: number;
@@ -48,4 +48,22 @@ interface TopOverdue {
   payments: any[];
   invoicesTotal: number;
   paymentsTotal: number;
+}
+
+export enum Currency {
+  MDL = "EUR",
+  EUR = "EUR",
+  USD = "USD",
+  RON = "EUR",
+}
+
+export enum Transaction {
+  Invoices = "Invoices",
+  Payments = "Payments",
+}
+
+export enum TransactionStatus {
+  Received = "Received",
+  Due = "Due",
+  Overdue = "Overdue",
 }
