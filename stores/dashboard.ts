@@ -3,19 +3,23 @@ import type { FinanceOverview } from "~/types/finance-overview";
 export const useDashboardStore = defineStore("dashboardStore", {
   state: () => ({
     financeOverviewData: {} as FinanceOverview,
+    error: null as Error | null,
   }),
   actions: {
     async fetchFinanceOverviewData() {
-      const response = await useFetch("http://localhost:3001/api/dashboard/general") as any;
+      try {
+        const { data, error } = await useFetch('http://localhost:3001/api/dashboard/general');
 
-      console.log("response in store", response);
+        if (error.value) {
+          throw error.value;
+        }
 
-      if (response.data.error) {
-        throw response.data.error!;
+        this.financeOverviewData = data.value as FinanceOverview;
+      } catch (err) {
+        console.error('Error fetching finance overview data:', err);
+        this.error = new Error('Failed to load the dashboard data. Please try again later.');
+        this.financeOverviewData = {} as FinanceOverview;
       }
-
-      this.financeOverviewData = response.data.value;
-      console.log("this.financeOverviewData", this.financeOverviewData);
-    }
+    },
   }
 })
