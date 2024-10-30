@@ -1,5 +1,7 @@
 <template>
-  <header class="absolute flex justify-end lg:justify-between items-center fixed  top-0 left-0 right-0 h-85 z-10 lg:ml-[222px] bg-white shadow-[0_3px_2px_0_rgba(0,_0,_0,_0.10)] px-6 py-4">
+  <header class="absolute flex justify-between items-center fixed  top-0 left-0 right-0 h-85 z-10 lg:ml-[222px] bg-white shadow-[0_3px_2px_0_rgba(0,_0,_0,_0.10)] px-6 py-4">
+    <i class="mdi-menu i-mdi-menu h-24 w-24 text-black lg:hidden"></i>
+    
     <UserButton user-name="Gennadiy Sinigur" variant="filled">
       <template #circleAvatar>
         <img class="object-cover" src="/public/halloween-evil-pumpkin.svg" h-28 w-28 alt="helloween pumkin" />
