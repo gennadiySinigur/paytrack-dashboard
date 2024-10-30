@@ -2,9 +2,7 @@
   <div class="grid grid-rows-[auto_1fr_auto] grid-cols-[auto_1fr] min-h-screen">
     <Sidebar />
     
-    <header class="fixed  top-0 left-0 right-0 text-white h-85 z-10 lg:ml-[222px] bg-white shadow-[0_3px_2px_0_rgba(0,_0,_0,_0.10)]">
-      Header
-    </header>
+    <Header />
 
     <main class="row-span-2 col-span-2 mt-[150px] lg:ml-[222px]">
       <div class="max-w-920 xl2:max-w-1000 xl3:max-w-1600 mx-auto w-full">

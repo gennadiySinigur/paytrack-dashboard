@@ -1,9 +1,6 @@
 <template>
   <aside class="fixed top-0 left-0 h-full bg-[#f7f2e8] hidden lg:block w-0 lg:w-222">
-    <div class="flex items-center justify-center gap-1 p-6 mb-2">
-      <img src="/public/sirius_logo_halloween.png" h-44 w-44 />
-      <p class="font-900 text-xl">SIRIUS</p>
-    </div>
+    <Logo class=" mb-2" />
 
     <nav>
       <ul>

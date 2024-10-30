@@ -37,7 +37,8 @@ export default defineConfig({
       primary: {
         "blue": {
           3: "rgb(0 76 174)",
-          4: "rgb(17 106 204)",
+          // 4: "rgb(17 106 204)",
+          4: "#5f4d3d",
         },
         "light": "rgb(248 250 255)",
         "dark": "rgb(24 34 51)",
