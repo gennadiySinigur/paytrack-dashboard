@@ -34,7 +34,7 @@
         :count="dynamicFinancialSummary.totalCount"
       />
 
-      <div class="h-2 bg-primary-light mb-2"></div>
+      <Divider type="horizontal" />
 
       <div v-for="(row, index) in financialSummaryRows">
         <FinancialSummaryRow 

@@ -1,5 +1,5 @@
 <template>
-  <div :style="dividerStyleObject" class="h-2 bg-primary-light mb-2"></div>
+  <div :style="dividerStyleObject" class="bg-primary-light mb-2"></div>
 </template>
 
 <script setup lang="ts">

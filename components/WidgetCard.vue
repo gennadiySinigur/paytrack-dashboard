@@ -25,7 +25,8 @@
       </div>
     </div>
 
-    <div class="w-2 bg-primary-light"></div>
+    <!-- <div class="w-2 bg-primary-light"></div> -->
+    <Divider type="vertical"/>
 
     <div class="grow md:grow-0">
       <div class="flex justify-between items-center smPlus:block smPlus:mb-5">
